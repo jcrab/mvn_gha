@@ -19,4 +19,9 @@ public class HelloWorldTest {
         assertEquals("A", alphabet.getFirst());
     }
     
+    @Test
+	void testMath() throws Exception {
+		assertEquals(4, 1 + 2, "bad math");
+	}
+    
 }
