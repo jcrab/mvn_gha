@@ -21,7 +21,7 @@ public class HelloWorldTest {
     
     @Test
 	void testMath() throws Exception {
-		assertEquals(4, 1 + 2, "bad math");
+		assertEquals(4, 2 + 2, "bad math");
 	}
     
 }
